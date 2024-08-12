@@ -11,10 +11,10 @@
     <h1>Naruto Survey Form</h1>
     <p>Please fill out this form with the required information</p>
     <fieldset>
-        <label for="name">Name <input id="name" type="text" placeholder="Type name here" required/></label>
-        <label for="age">Age <input id="age" type="number" min="12" max="100" required/></label>
-        <label for="password">Password <input id="password" type="password" placeholder="Type password here" minlength="8" required pattern="[a-z0-5]{8,}" /></label>
-        <label for="email">Email <input id="email" type="email" placeholder="Type email"required/></label>
+        <label for="name">Name <input id="name" style="width: fit-content;" type="text" placeholder="Type name here" required/></label>
+        <label for="age">Age <input id="age" style="width: fit-content;" type="number" min="12" max="100" required/></label>
+        <label for="password">Password <input id="password" style="width: fit-content;" type="password" placeholder="Type password here" minlength="8" required pattern="[a-z0-5]{8,}" /></label>
+        <label for="email">Email <input id="email" style="width: fit-content;" type="email" placeholder="Type email"required/></label>
     </fieldset>
     <fieldset class="inline">
         <label> <h2> How long have you been watching Naruto?</h2></label>
@@ -25,8 +25,8 @@
     </fieldset>
     <fieldset> 
         <label for="watch-where"> <h2> What do you watch Naruto on?</h2>
-            <select id="watch-where"> 
-                <option value=""> (Select an option here)</option>
+            <select id="watch-where" style="width: fit-content;"> 
+                <option value="">  (Select an option here)</option>
                 <option value="1"> Crunchyroll </option>
                 <option value="2"> TV </option>
                 <option value="3"> Streaming </option>
@@ -44,9 +44,9 @@
         <label> <input type="checkbox" class="inline"/> Other </label>    
     </fieldset>
     <fieldset>
-        <label> Any other comments? Post them here <textarea id="comments" rows="3" cols="30" placeholder="Type here..."> </textarea></label>
+        <label> Any other comments? Post them here <textarea id="comments" style="width: fit-content;" rows="3" cols="30" placeholder="Type here..."> </textarea></label>
     </fieldset>
     <input type="submit" value="Submit"/>
-    <!-- names have been excluded-->
+    <!-- Names have been excluded-->
 </body>
 </html>
